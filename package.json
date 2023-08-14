@@ -1,0 +1,23 @@
+{
+  "name": "javascript_backend",
+  "version": "0.0.1",
+  "description": "Aula jovem programador",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorpaes21/javascript_backend.git"
+  },
+  "author": "Igor Paes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorpaes21/javascript_backend/issues"
+  },
+  "homepage": "https://github.com/igorpaes21/javascript_backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
