@@ -1,4 +1,19 @@
-const express = require("express");
+const express = require('express')
+const router = require('./src/routers/exercicio.js')
+
+const app = express()
+const port = 3000
+
+app.use(express.json())
+app.use(router)
+
+app.listen(port, () => {
+    console.log(`Servidor rodando na porta ${port}`)
+})
+
+/*const express = require("express");
+
+
 const { somar } = require("./Exercicios/ex1.js");
 const { sub } = require("./Exercicios/ex2.js");
 const { div } = require("./Exercicios/ex3.js");
@@ -111,3 +126,4 @@ app.post("/api/ex11", (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor rodando na porta porta ${port}`);
 });
+*/
